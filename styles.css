@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background: linear-gradient(rgb(243, 221, 134), rgb(194, 181, 186));
+    height: 100vh;
+}
+
+.calculator {
+     margin-left: auto;
+     margin-right: auto;
+     padding: 30px; 
+     max-width: 400px;
+     height: 525px;
+     border-radius: 5%;
+    background-image: linear-gradient(315deg, #85144b 0%, #781e4a 74%);
+}
+
+.options {  
+    width: 100%;
+    height: 90%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 8px;
+}   
+
+
+.btn {
+    font-size: 1em;
+    font-family: 'Space Mono', serif;
+    font-weight: bold;
+    color: #ffffff;
+    height: 65px;
+    border: 1px solid black;
+    border-radius: 7%;
+    background-color: #FF851B;
+}
+
+.equals {
+    grid-column: 3 / 5;
+}
+
+.display-screen {
+    grid-column: 1/-1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    word-wrap: break-word;
+    word-break: break-all;
+    padding: 5px;
+    height: 75px;
+    color: #000000;
+    padding: 10px;
+    background-color: #0002032d;
+}
+
+.previous-number {
+    color: rgb(255,255, 255, .75);
+    font-size: 1.5rem;
+}
+
+.current-number {
+    color: white;
+    font-size: 2.0rem;
+}
+
+.operator {
+    background-color: #f9696e;
+}
+button:hover {
+    background-color: rgb(197, 173, 130) ;
+}
