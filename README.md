@@ -7,7 +7,7 @@ Calculator project created with the Odin Project.
 ## Things Learned
 
 -DOM manipulation practice\
--Creating a complex constructor\
+-Creating a complex constructor
 
 ## Things I would like to work on
 
