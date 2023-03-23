@@ -13,5 +13,6 @@ Calculator project created with the Odin Project.
 
 -Adding commas to longer integers\
 -Adding an exponent option\
+-Fix the automatically populated decmial
 
 
